@@ -28,7 +28,7 @@ class String
 
   def count_sentences
     self.split(/[?.!]+/).count
-    self.split(/\W/).count
+    #self.split(/\W/).count
 
   end
 end
